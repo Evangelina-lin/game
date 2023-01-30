@@ -23,7 +23,7 @@ Functions for images
 '''
 
 
-# Loading images
+# загрузка фото
 
 
 def load_image(name):
@@ -35,7 +35,7 @@ def load_image(name):
     return image
 
 
-# Creating temporary folder for edited images
+# создание
 
 
 def create_temp():
@@ -44,7 +44,7 @@ def create_temp():
         os.makedirs(newpath)
 
 
-# Deleting temporary folder for edited images
+# удаление
 
 
 def delete_temp():
@@ -53,7 +53,7 @@ def delete_temp():
         shutil.rmtree(path)
 
 
-# Scaling images
+# работа с фото
 
 
 def scale_image(name, size=1.0):
